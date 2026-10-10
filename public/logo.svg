@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1e3a8a" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect width="512" height="512" rx="100" fill="url(#blueGrad)" />
+  <!-- Dynamic Clean Waves & Shield Silhouette -->
+  <path d="M128 140 C200 110, 312 110, 384 140 C384 270, 340 370, 256 410 C172 370, 128 270, 128 140 Z" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-width="4" />
+  
+  <!-- Stylized N & Droplet / Molecule Element -->
+  <g filter="url(#shadow)">
+    <!-- Dynamic Clean Sparkle -->
+    <path d="M256 120 L266 150 L296 160 L266 170 L256 200 L246 170 L216 160 L246 150 Z" fill="#67e8f9" />
+    <path d="M360 210 L366 228 L384 234 L366 240 L360 258 L354 240 L336 234 L354 228 Z" fill="#ffffff" />
+    
+    <!-- Bold 'N' Monogram with Clean Industrial Precision -->
+    <path d="M176 180 L212 180 L296 308 L296 180 L336 180 L336 332 L300 332 L216 204 L216 332 L176 332 Z" fill="#ffffff" />
+    <!-- Blue accent dot inside -->
+    <circle cx="336" cy="180" r="10" fill="#38bdf8" />
+  </g>
+
+  <!-- Clean Banner Text -->
+  <text x="256" y="384" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="4">NEOXILINDIA</text>
+  <text x="256" y="414" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="14" fill="#93c5fd" letter-spacing="2">CLEANING CHEMICALS &amp; PRODUCTS</text>
+</svg>
