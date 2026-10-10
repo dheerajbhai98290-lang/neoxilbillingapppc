@@ -2,5 +2,7 @@
   "name": "NEOXILINDIA Billing & Business Management",
   "description": "Complete billing, manufacturing, inventory, GST and financial management system for NEOXILINDIA cleaning products manufacturing and wholesale business.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
